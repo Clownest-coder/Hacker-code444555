@@ -1,0 +1,10 @@
+user_input  =  input ("Type your information (not real this is a test)") 
+# This is the users info.
+
+print ("Thank you for your information. We will now hack you.") 
+#this creates a file and stores the victims info inside a file
+file = open("Hacked.txt", "w")
+file.write(user_input)
+file.close()
+
+#this is the end of the code and all the victims info is stored in a file
